@@ -225,6 +225,9 @@ thead { /* <thead>의 모든 셀에 적용 */
     background-color:rgb(130,130,132) ;
     text-decoration: underline;
 }
+#newstable tbody tr a{
+    color:rgb(255,196,0);
+}
 #newstable tbody tr a:visited{
     color:rgb(255,196,0);
 }
