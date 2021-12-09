@@ -10,7 +10,7 @@ body{
     font-family: 'Nanum Myeongjo', serif;
 }
 @keyframes ColorChange{
-    50%{color:yellow;}
+    50%{color:rgb(0,123,255);}
     100%{color:white;}
 
 }
