@@ -1,0 +1,2123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Covid</title>
+    <link rel="stylesheet" type="text/css" href="style_main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+    </style>
+    <script src="main.js">
+    </script>
+</head>
+
+<body>
+    <div style="margin-top:30px; margin-left: 20px;">
+        <span class="material-icons" style=" color:rgb(255,196,0); text-shadow : 2px 1px 4px rgb(255,196,0);">
+            coronavirus
+        </span>
+        <a id="Logo" style="font-size:30px; color : white;
+        text-shadow : 2px 2px 4px white;">Date Covid</a>
+    </div>
+    <nav id="menu" style="margin-top: 50px;">
+        <div>
+            <li><a href="#global">세계 현황</a></li>
+            <li><a href="#korea">국내 현황</a></li>
+            <li><a href="#news">코로나 뉴스</a></li>
+            <li><a href="#vac">백신 현황</a></li>
+            <li><a href="#cnt">국내 확진자 정보</a></li>
+
+        </div>
+    </nav>
+    <div class="menu">
+        <ul id="sidemenu">
+            <li><a href="#" class="item">
+                    <div>홈</div>
+                </a></li>
+            <li><a href="#global" class="item">
+                    <div>세계 현황</div>
+                </a></li>
+            <li><a href="#korea" class="item">
+                    <div>국내 현황</div>
+                </a></li>
+            <li><a href="#news" class="item">
+                    <div>코로나 뉴스</div>
+                </a></li>
+            <li><a href="#vac" class="item">
+                    <div>백신 현황</div>
+                </a></li>
+            <li><a href="#cnt" class="item">
+                    <div>확진자 정보</div>
+                </a></li>
+        </ul>
+    </div>
+    <div style="margin-bottom: 100px; visibility:hidden;">flag</div>
+    <div id="global">
+        <a style="visibility: hidden;">flag</a>
+        <div style="margin-top: 100px;">
+            <h1 style="text-align: center;">세계 현황</h1>
+            <div class="board" style="margin-top: 100px;">
+                <div>
+                    <div style="color:rgb(130,130,132);">확진자<p style="color: rgb(204,72,39); font-size:28px;">266,856,514</p>
+                    </div>
+                    <div style="color:rgb(130,130,132);">사망자<p style="font-size:28px; color:white;">5,281,088</p>
+                    </div>
+                    <div style="color:rgb(130,130,132);">격리해제<p style="color: rgb(62,149,219);font-size:28px;">238,755,529</p>
+                    </div>
+                    <div style="color:rgb(130,130,132);">발생국<p style="font-size:28px;color:white;">223</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="table" style="margin-top: 100px;">
+        <table>
+            <thead>
+                <tr>
+                    <th>국가</th>
+                    <th>확진자</th>
+                    <th>사망자</th>
+                    <th>치명(%)</th>
+                    <th>완치(%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>미국</td>
+                    <td>50,149,325</td>
+                    <td>810,254</td>
+                    <td>1.6</td>
+                    <td>79.1</td>
+                </tr>
+                <tr>
+                    <td>인도</td>
+                    <td>34,648,383</td>
+                    <td>473,757</td>
+                    <td>1.4</td>
+                    <td>98.4</td>
+                </tr>
+
+
+                <tr>
+                    <td>브라질</td>
+                    <td>22,147,476</td>
+                    <td>615,789</td>
+                    <td>2.8</td>
+                    <td>2.8</td>
+                </tr>
+                <tr>
+                    <td>영국</td>
+                    <td>10,515,239</td>
+                    <td>145,646</td>
+                    <td>1.4</td>
+                    <td>88.1</td>
+                </tr>
+                <tr>
+                    <td>러시아</td>
+                    <td>9,833,749</td>
+                    <td>282,462</td>
+                    <td>2.9</td>
+                    <td>2.9</td>
+                </tr>
+                <tr>
+                    <td>터키</td>
+                    <td>8,921,150</td>
+                    <td>78,017</td>
+                    <td>0.9</td>
+                    <td>94.9</td>
+                </tr>
+                <tr>
+                    <td>프랑스</td>
+                    <td>7,928,572</td>
+                    <td>119,535</td>
+                    <td>1.5</td>
+                    <td>91.0</td>
+                </tr>
+                <tr>
+                    <td>독일</td>
+                    <td>6,219,169</td>
+                    <td>103,913</td>
+                    <td>1.7</td>
+                    <td>83.1</td>
+                </tr>
+                <tr>
+                    <td>이란</td>
+                    <td>6,137,821</td>
+                    <td>130,277</td>
+                    <td>2.1</td>
+                    <td>96.6</td>
+                </tr>
+                <tr>
+                    <td>아르헨티나</td>
+                    <td>5,343,153</td>
+                    <td>116,680</td>
+                    <td>2.2</td>
+                    <td>97.4</td>
+                </tr>
+                <tr>
+                    <td>스페인</td>
+                    <td>5,202,958</td>
+                    <td>88,159</td>
+                    <td>1.7</td>
+                    <td>94.7</td>
+                </tr>
+                <tr>
+                    <td>이탈리아</td>
+                    <td>5,118,576</td>
+                    <td>134,287</td>
+                    <td>2.6</td>
+                    <td>92.8</td>
+                </tr>
+
+
+                <tr>
+                    <td>콜롬비아</td>
+                    <td>5,082,762</td>
+                    <td>128,821</td>
+                    <td>2.5</td>
+                    <td>96.9</td>
+                </tr>
+                <tr>
+                    <td>인도네시아</td>
+                    <td>4,257,815</td>
+                    <td>143,876</td>
+                    <td>3.4</td>
+                    <td>96.5</td>
+                </tr>
+                <tr>
+                    <td>멕시코</td>
+                    <td>3,902,015</td>
+                    <td>295,312</td>
+                    <td>7.6</td>
+                    <td>83.5</td>
+                </tr>
+                <tr>
+                    <td>폴란드</td>
+                    <td>3,684,671</td>
+                    <td>85,700</td>
+                    <td>2.3</td>
+                    <td>86.0</td>
+                </tr>
+                <tr>
+                    <td>우크라이나</td>
+                    <td>3,510,610</td>
+                    <td>88,986</td>
+                    <td>2.5</td>
+                    <td>87.8</td>
+                </tr>
+                <tr>
+                    <td>남아프리카 공화국</td>
+                    <td>3,038,075</td>
+                    <td>89,975</td>
+                    <td>3.0</td>
+                    <td>94.2</td>
+                </tr>
+                <tr>
+                    <td>필리핀</td>
+                    <td>2,835,345</td>
+                    <td>49,591</td>
+                    <td>1.7</td>
+                    <td>97.8</td>
+                </tr>
+                <tr>
+                    <td>네덜란드</td>
+                    <td>2,772,919</td>
+                    <td>19,702</td>
+                    <td>0.7</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>말레이시아</td>
+                    <td>2,663,034</td>
+                    <td>30,652</td>
+                    <td>1.2</td>
+                    <td>96.6</td>
+                </tr>
+                <tr>
+                    <td>체코</td>
+                    <td>2,262,666</td>
+                    <td>33,902</td>
+                    <td>1.5</td>
+                    <td>85.9</td>
+                </tr>
+
+
+                <tr>
+                    <td>페루</td>
+                    <td>2,245,146</td>
+                    <td>201,421</td>
+                    <td>9.0</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>태국</td>
+                    <td>2,148,766</td>
+                    <td>20,995</td>
+                    <td>1.0</td>
+                    <td>95.9</td>
+                </tr>
+                <tr>
+                    <td>이라크</td>
+                    <td>2,084,961</td>
+                    <td>23,903</td>
+                    <td>1.1</td>
+                    <td>98.4</td>
+                </tr>
+                <tr>
+                    <td>벨기에</td>
+                    <td>1,868,906</td>
+                    <td>27,319</td>
+                    <td>1.5</td>
+                    <td>74.2</td>
+                </tr>
+                <tr>
+                    <td>캐나다</td>
+                    <td>1,812,244</td>
+                    <td>29,800</td>
+                    <td>1.6</td>
+                    <td>96.7</td>
+                </tr>
+                <tr>
+                    <td>루마니아</td>
+                    <td>1,786,839</td>
+                    <td>57,153</td>
+                    <td>3.2</td>
+                    <td>95.3</td>
+                </tr>
+                <tr>
+                    <td>칠레</td>
+                    <td>1,774,048</td>
+                    <td>38,531</td>
+                    <td>2.2</td>
+                    <td>94.0</td>
+                </tr>
+                <tr>
+                    <td>일본</td>
+                    <td>1,728,370</td>
+                    <td>18,377</td>
+                    <td>18,377</td>
+                    <td>98.9</td>
+                </tr>
+                <tr>
+                    <td>방글라데시</td>
+                    <td>1,577,720</td>
+                    <td>28,005</td>
+                    <td>1.8</td>
+                    <td>97.8</td>
+                </tr>
+                <tr>
+                    <td>이스라엘</td>
+                    <td>1,346,670</td>
+                    <td>8,209</td>
+                    <td>0.6</td>
+                    <td>99.0</td>
+                </tr>
+
+
+                <tr>
+                    <td>베트남</td>
+                    <td>1,323,683</td>
+                    <td>26,483</td>
+                    <td>2.0</td>
+                    <td>76.3</td>
+                </tr>
+                <tr>
+                    <td>파키스탄</td>
+                    <td>1,287,393</td>
+                    <td>28,784</td>
+                    <td>2.2</td>
+                    <td>96.8</td>
+                </tr>
+                <tr>
+                    <td>세르비아</td>
+                    <td>1,265,228</td>
+                    <td>11,955</td>
+                    <td>0.9</td>
+                    <td>95.9</td>
+                </tr>
+                <tr>
+                    <td>스웨덴</td>
+                    <td>1,212,145</td>
+                    <td>415,1360</td>
+                    <td>1.2 </td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>오스트리아</td>
+                    <td>1,203,103</td>
+                    <td>12,844</td>
+                    <td>1.1</td>
+                    <td>90.4</td>
+                </tr>
+                <tr>
+                    <td>포르투칼</td>
+                    <td>1,169,003</td>
+                    <td>18,551</td>
+                    <td>1.6</td>
+                    <td>93.1</td>
+                </tr>
+                <tr>
+                    <td>헝가리</td>
+                    <td>1,161,879</td>
+                    <td>35,835</td>
+                    <td>3.1</td>
+                    <td>80.8</td>
+                </tr>
+                <tr>
+                    <td>스위스</td>
+                    <td>1,063,466</td>
+                    <td>11,628</td>
+                    <td>1.1</td>
+                    <td>82.4</td>
+                </tr>
+                <tr>
+                    <td>요르단</td>
+                    <td>981,767</td>
+                    <td>11,787</td>
+                    <td>1.2</td>
+                    <td>92.4</td>
+                </tr>
+                <tr>
+                    <td>카자흐스탄</td>
+                    <td>976,327</td>
+                    <td>12,791</td>
+                    <td>1.3</td>
+                    <td>96.6</td>
+                </tr>
+
+
+                <tr>
+                    <td>그리스</td>
+                    <td>971,148</td>
+                    <td>18,716</td>
+                    <td>1.9</td>
+                    <td>90.9</td>
+                </tr>
+                <tr>
+                    <td>쿠바</td>
+                    <td>963,194</td>
+                    <td>8,310</td>
+                    <td>8,310</td>
+                    <td>99.1</td>
+                </tr>
+                <tr>
+                    <td>모로코</td>
+                    <td>950,643</td>
+                    <td>14,788</td>
+                    <td>1.6</td>
+                    <td>98.1</td>
+                </tr>
+                <tr>
+                    <td>조지아</td>
+                    <td>871,580</td>
+                    <td>12,466</td>
+                    <td>1.4</td>
+                    <td>93.4</td>
+                </tr>
+                <tr>
+                    <td>네팔</td>
+                    <td>822,830</td>
+                    <td>11,543</td>
+                    <td>1.4</td>
+                    <td>97.8</td>
+                </tr>
+                <tr>
+                    <td>아랍에미레이트</td>
+                    <td>742,376</td>
+                    <td>2,149</td>
+                    <td>0.3</td>
+                    <td>99.3</td>
+                </tr>
+                <tr>
+                    <td>슬로바키아</td>
+                    <td>732,495</td>
+                    <td>14,900</td>
+                    <td>2.0</td>
+                    <td>81.9</td>
+                </tr>
+                <tr>
+                    <td>튀니지</td>
+                    <td>718,443</td>
+                    <td>718,443</td>
+                    <td>3.5</td>
+                    <td>96.3</td>
+                </tr>
+                <tr>
+                    <td>불가리아</td>
+                    <td>705,586</td>
+                    <td>29,060</td>
+                    <td>4.1</td>
+                    <td>81.8</td>
+                </tr>
+                <tr>
+                    <td>레바논</td>
+                    <td>679,625</td>
+                    <td>8,785</td>
+                    <td>1.3</td>
+                    <td>93.4</td>
+                </tr>
+
+
+                <tr>
+                    <td>벨라루스</td>
+                    <td>665,125</td>
+                    <td>5,176</td>
+                    <td>0.8</td>
+                    <td>98.3</td>
+                </tr>
+                <tr>
+                    <td>크로아티아</td>
+                    <td>631,765</td>
+                    <td>11,269</td>
+                    <td>1.8</td>
+                    <td>94.2</td>
+                </tr>
+                <tr>
+                    <td>과테말라</td>
+                    <td>619,891</td>
+                    <td>15,992</td>
+                    <td>2.6</td>
+                    <td>97.2</td>
+                </tr>
+                <tr>
+                    <td>아일랜드</td>
+                    <td>597,161</td>
+                    <td>5,707</td>
+                    <td>1.0</td>
+                    <td>77.4</td>
+                </tr>
+                <tr>
+                    <td>아제르바이잔</td>
+                    <td>596,973</td>
+                    <td>7,983</td>
+                    <td>1.3</td>
+                    <td>94.7</td>
+                </tr>
+                <tr>
+                    <td>스리랑카</td>
+                    <td>568,423</td>
+                    <td>14,4842</td>
+                    <td>2.5</td>
+                    <td>95.5</td>
+                </tr>
+                <tr>
+                    <td>코스타리카</td>
+                    <td>567,614</td>
+                    <td>7,318</td>
+                    <td>1.3</td>
+                    <td>97.9</td>
+                </tr>
+                <tr>
+                    <td>사우디아라비아</td>
+                    <td>549,955</td>
+                    <td>8,845</td>
+                    <td>1.6</td>
+                    <td>98.0</td>
+                </tr>
+                <tr>
+                    <td>볼리비아</td>
+                    <td>544,666</td>
+                    <td>19,247</td>
+                    <td>3.5</td>
+                    <td>91.6</td>
+                </tr>
+                <tr>
+                    <td>에콰도르</td>
+                    <td>529,349</td>
+                    <td>33,484</td>
+                    <td>6.3</td>
+                    <td>83.9</td>
+                </tr>
+
+
+                <tr>
+                    <td>미얀마</td>
+                    <td>524,638</td>
+                    <td>19,146</td>
+                    <td>3.6</td>
+                    <td>95.4</td>
+                </tr>
+                <tr>
+                    <td>덴마크</td>
+                    <td>516,257</td>
+                    <td>2,956</td>
+                    <td>0.6</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>리투아니아</td>
+                    <td>482,458</td>
+                    <td>6,886</td>
+                    <td>1.4</td>
+                    <td>92.9</td>
+                </tr>
+                <tr>
+                    <td>대한민국</td>
+                    <td>482,310</td>
+                    <td>3,957</td>
+                    <td>0.8</td>
+                    <td>85.3</td>
+                </tr>
+                <tr>
+                    <td>파나마</td>
+                    <td>479,053</td>
+                    <td>7,374</td>
+                    <td>1.5 </td>
+                    <td>97.9</td>
+                </tr>
+                <tr>
+                    <td>파라과이</td>
+                    <td>463,427</td>
+                    <td>16,479</td>
+                    <td>3.6</td>
+                    <td>96.3</td>
+                </tr>
+                <tr>
+                    <td>베네수엘라</td>
+                    <td>435,461</td>
+                    <td>5,202</td>
+                    <td>1.2</td>
+                    <td>97.1</td>
+                </tr>
+                <tr>
+                    <td>팔레스타인</td>
+                    <td>432,265</td>
+                    <td>4,554</td>
+                    <td>1.1</td>
+                    <td>98.1</td>
+                </tr>
+                <tr class="step2">
+                    <td>슬로베니아</td>
+                    <td>430,839</td>
+                    <td>5,317</td>
+                    <td>1.2</td>
+                    <td>92.1</td>
+                </tr>
+                <tr class="step2">
+                    <td>쿠웨이트</td>
+                    <td>413,524</td>
+                    <td>2,465</td>
+                    <td>0.6</td>
+                    <td>99.3</td>
+                </tr>
+                <tr class="step2">
+                    <td>도미니카 공화국</td>
+                    <td>408,748</td>
+                    <td>4,212</td>
+                    <td>1.0</td>
+                    <td>98.5</td>
+                </tr>
+                <tr class="step2">
+                    <td>우루과이</td>
+                    <td>401,103</td>
+                    <td>6,136</td>
+                    <td>1.5 </td>
+                    <td>97.9</td>
+                </tr>
+                <tr class="step2">
+                    <td>몽골</td>
+                    <td>383,978</td>
+                    <td>2,020</td>
+                    <td>0.5</td>
+                    <td>81.6</td>
+                </tr>
+                <tr class="step2">
+                    <td>온두라스</td>
+                    <td>378,351</td>
+                    <td>10,416</td>
+                    <td>2.8</td>
+                    <td>32.3</td>
+                </tr>
+                <tr class="step2">
+                    <td>리비아</td>
+                    <td>375,468</td>
+                    <td>5,499</td>
+                    <td>1.5</td>
+                    <td>95.0</td>
+                </tr>
+                <tr class="step2">
+                    <td>에티오피아</td>
+                    <td>372,334</td>
+                    <td>6,804</td>
+                    <td>1.8</td>
+                    <td>93.9</td>
+                </tr>
+                <tr class="step2">
+                    <td>몰도바</td>
+                    <td>366,751</td>
+                    <td>9,244</td>
+                    <td>2.5</td>
+                    <td>95.7</td>
+                </tr>
+                <tr class="step2">
+                    <td>이집트</td>
+                    <td>364,033</td>
+                    <td>20,770</td>
+                    <td>5.7 </td>
+                    <td>83.0</td>
+                </tr>
+                <tr class="step2">
+                    <td>아르메니아</td>
+                    <td>341,058</td>
+                    <td>7,718</td>
+                    <td>2.3</td>
+                    <td>94.5</td>
+                </tr>
+                <tr class="step2">
+                    <td>오만</td>
+                    <td>304,612</td>
+                    <td>4,113</td>
+                    <td>1.4</td>
+                    <td>98.5</td>
+                </tr>
+                <tr class="step2">
+                    <td>노르웨이</td>
+                    <td>287,123</td>
+                    <td>1,096</td>
+                    <td>0.4</td>
+                    <td>31.0</td>
+                </tr>
+                <tr class="step2">
+                    <td>보스니아 헤르체고비나</td>
+                    <td>278,511</td>
+                    <td>12,780</td>
+                    <td>4.6</td>
+                    <td>69.0</td>
+                </tr>
+                <tr class="step2">
+                    <td>바레인</td>
+                    <td>277,856</td>
+                    <td>1,394</td>
+                    <td>0.5</td>
+                    <td>99.4</td>
+                </tr>
+                <tr class="step2">
+                    <td>싱가포르</td>
+                    <td>269,873</td>
+                    <td>763</td>
+                    <td>0.3</td>
+                    <td>96.6</td>
+                </tr>
+                <tr class="step2">
+                    <td>라트비아</td>
+                    <td>257,559</td>
+                    <td>4,277</td>
+                    <td>1.7</td>
+                    <td>94.24</td>
+                </tr>
+                <tr class="step2">
+                    <td>케냐</td>
+                    <td>255,469</td>
+                    <td>5,335</td>
+                    <td>2.1</td>
+                    <td>97.3</td>
+                </tr>
+                <tr class="step2">
+                    <td>카타르</td>
+                    <td>244,387</td>
+                    <td>611</td>
+                    <td>0.3</td>
+                    <td>98.8</td>
+                </tr>
+                <tr class="step2">
+                    <td>에스토니아</td>
+                    <td>225,294</td>
+                    <td>1,825</td>
+                    <td>0.8</td>
+                    <td>92.6</td>
+                </tr>
+                <tr class="step2">
+                    <td>호주</td>
+                    <td>220,552</td>
+                    <td>2,065</td>
+                    <td>0.9</td>
+                    <td>89.4</td>
+                </tr>
+                <tr class="step2">
+                    <td>북마케도니아/td>
+                    <td>217,400</td>
+                    <td>7,658</td>
+                    <td>3.5</td>
+                    <td>93.8</td>
+                </tr>
+                <tr class="step2">
+                    <td>나이지리아</td>
+                    <td>214,789</td>
+                    <td>2,980</td>
+                    <td>1.4</td>
+                    <td>96.6</td>
+                </tr>
+                <tr class="step2">
+                    <td>알제리</td>
+                    <td>211,662</td>
+                    <td>6,111</td>
+                    <td>2.9</td>
+                    <td>68.7</td>
+                </tr>
+                <tr class="step2">
+                    <td>잠비아</td>
+                    <td>210,327</td>
+                    <td>3,668</td>
+                    <td>1.7</td>
+                    <td>98.2</td>
+                </tr>
+                <tr class="step2">
+                    <td>알바니아</td>
+                    <td>201,902</td>
+                    <td>3,115</td>
+                    <td>1.5</td>
+                    <td>95.3</td>
+                </tr>
+                <tr class="step2">
+                    <td>보츠와나</td>
+                    <td>195,552</td>
+                    <td>2,420</td>
+                    <td>1.2</td>
+                    <td>98.4</td>
+                </tr>
+                <tr class="step2">
+                    <td>우즈베키스탄</td>
+                    <td>194,703</td>
+                    <td>1,424</td>
+                    <td>0.7</td>
+                    <td>98.2</td>
+                </tr>
+                <tr class="step2">
+                    <td>핀란드</td>
+                    <td>194,638</td>
+                    <td>1,383</td>
+                    <td>0.7</td>
+                    <td>23.6</td>
+                </tr>
+                <tr class="step2">
+                    <td>키르기스스탄</td>
+                    <td>183,712</td>
+                    <td>2,762</td>
+                    <td>1.5</td>
+                    <td>97.3</td>
+                </tr>
+                <tr class="step2">
+                    <td>몬테네그로</td>
+                    <td>158,623</td>
+                    <td>2,331</td>
+                    <td>1.5</td>
+                    <td>97.2</td>
+                </tr>
+                <tr class="step2">
+                    <td>아프가니스탄</td>
+                    <td>157,508</td>
+                    <td>7,317</td>
+                    <td>4.6</td>
+                    <td>89.5</td>
+                </tr>
+                <tr class="step2">
+                    <td>모잠비크</td>
+                    <td>152,000</td>
+                    <td>1,941</td>
+                    <td>1.3</td>
+                    <td>98.4</td>
+                </tr>
+                <tr class="step2">
+                    <td>짐바브웨</td>
+                    <td>139,046</td>
+                    <td>4,710</td>
+                    <td>3.4</td>
+                    <td>92.7</td>
+                </tr>
+                <tr class="step2">
+                    <td>키프로스</td>
+                    <td>137,538</td>
+                    <td>602</td>
+                    <td>0.4</td>
+                    <td>90.4</td>
+                </tr>
+                <tr class="step2">
+                    <td>가나</td>
+                    <td>131,246</td>
+                    <td>1,228</td>
+                    <td>0.9</td>
+                    <td>98.5</td>
+                </tr>
+                <tr class="step2">
+                    <td>나미비아</td>
+                    <td>129,796</td>
+                    <td>3,574</td>
+                    <td>2.8</td>
+                    <td>96.7</td>
+                </tr>
+                <tr class="step2">
+                    <td>우간다</td>
+                    <td>127,689</td>
+                    <td>3,256</td>
+                    <td>2.5</td>
+                    <td>76.5</td>
+                </tr>
+                <tr class="step2">
+                    <td>캄보디아</td>
+                    <td>120,286</td>
+                    <td>2,967</td>
+                    <td>2.5</td>
+                    <td>97.0</td>
+                </tr>
+                <tr class="step2">
+                    <td>엘살바도르</td>
+                    <td>119,803</td>
+                    <td>3,789</td>
+                    <td>3.2</td>
+                    <td>86.0</td>
+                </tr>
+                <tr class="step2">
+                    <td>코소보</td>
+                    <td>107,507</td>
+                    <td>2,269</td>
+                    <td>2.1</td>
+                    <td>98.0</td>
+                </tr>
+                <tr class="step2">
+                    <td>카메룬</td>
+                    <td>107,148</td>
+                    <td>1,804</td>
+                    <td>1.7</td>
+                    <td>95.9</td>
+                </tr>
+                <tr class="step2">
+                    <td>르완다</td>
+                    <td>100,429</td>
+                    <td>1,343</td>
+                    <td>1.3</td>
+                    <td>45.3</td>
+                </tr>
+                <tr class="step2">
+                    <td>중국</td>
+                    <td>99,297</td>
+                    <td>4,636</td>
+                    <td>4.7</td>
+                    <td>94.2</td>
+                </tr>
+                <tr class="step2">
+                    <td>몰디브</td>
+                    <td>92,368</td>
+                    <td>255</td>
+                    <td>0.3</td>
+                    <td>97.8</td>
+                </tr>
+                <tr class="step2">
+                    <td>룩셈부르크</td>
+                    <td>91,709</td>
+                    <td>885</td>
+                    <td>1.0</td>
+                    <td>93.5</td>
+                </tr>
+                <tr class="step2">
+                    <td>자메이카</td>
+                    <td>91,536</td>
+                    <td>2,410</td>
+                    <td>2.6</td>
+                    <td>68.9</td>
+                </tr>
+                <tr class="step2">
+                    <td>라오스</td>
+                    <td>80,722</td>
+                    <td>210</td>
+                    <td>0.3</td>
+                    <td>9.1</td>
+                </tr>
+                <tr class="step2">
+                    <td>트리니다드 토바고</td>
+                    <td>75,935</td>
+                    <td>2,281</td>
+                    <td>3.0</td>
+                    <td>80.3</td>
+                </tr>
+                <tr class="step2">
+                    <td>세네갈</td>
+                    <td>74,031</td>
+                    <td>1,886</td>
+                    <td>2.5</td>
+                    <td>97.4</td>
+                </tr>
+                <tr class="step2">
+                    <td>앙골라</td>
+                    <td>65,259</td>
+                    <td>1,735</td>
+                    <td>2.7</td>
+                    <td>97.0</td>
+                </tr>
+                <tr class="step2">
+                    <td>말라위</td>
+                    <td>61,997</td>
+                    <td>2,307</td>
+                    <td>3.7</td>
+                    <td>94.9</td>
+                </tr>
+                <tr class="step2">
+                    <td>코트디부아르</td>
+                    <td>61,826</td>
+                    <td>706</td>
+                    <td>1.1</td>
+                    <td>98.5</td>
+                </tr>
+                <tr class="step2">
+                    <td>레위니옹</td>
+                    <td>61,188</td>
+                    <td>384</td>
+                    <td>0.6</td>
+                    <td>94.4</td>
+                </tr>
+                <tr class="step2">
+                    <td>콩고민주공화국</td>
+                    <td>58,858</td>
+                    <td>1,113</td>
+                    <td>1,113</td>
+                    <td>86.5</td>
+                </tr>
+                <tr class="step2">
+                    <td>과들루프</td>
+                    <td>55,284</td>
+                    <td>748</td>
+                    <td>1.4</td>
+                    <td>4.1</td>
+                </tr>
+                <tr class="step2">
+                    <td>피지</td>
+                    <td>52,562</td>
+                    <td>697</td>
+                    <td>1.3</td>
+                    <td>97.3</td>
+                </tr>
+                <tr class="step2">
+                    <td>수리남</td>
+                    <td>51,052</td>
+                    <td>1,174</td>
+                    <td>2.3</td>
+                    <td>57.9</td>
+                </tr>
+                <tr class="step2">
+                    <td>시리아</td>
+                    <td>48,709</td>
+                    <td>2,782</td>
+                    <td>5.7</td>
+                    <td>61.3</td>
+                </tr>
+                <tr class="step2">
+                    <td>에스와티니</td>
+                    <td>47,851</td>
+                    <td>1,248</td>
+                    <td>2.6</td>
+                    <td>94.6</td>
+                </tr>
+                <tr class="step2">
+                    <td>프랑스령 폴리네시아</td>
+                    <td>45,609</td>
+                    <td>636</td>
+                    <td>1.4</td>
+                    <td>73.5</td>
+                </tr>
+                <tr class="step2">
+                    <td>마르티니크</td>
+                    <td>45,501</td>
+                    <td>718</td>
+                    <td>1.6</td>
+                    <td>0.2</td>
+                </tr>
+                <tr class="step2">
+                    <td>마다가스카르</td>
+                    <td>44,800</td>
+                    <td>972</td>
+                    <td>2.2</td>
+                    <td>96.2</td>
+                </tr>
+                <tr class="step2">
+                    <td>수단</td>
+                    <td>44,170</td>
+                    <td>3,200</td>
+                    <td>7.2</td>
+                    <td>81.0</td>
+                </tr>
+                <tr class="step2">
+                    <td>몰타 공화국</td>
+                    <td>40,015</td>
+                    <td>468</td>
+                    <td>1.2</td>
+                    <td>94.5</td>
+                </tr>
+                <tr class="step2">
+                    <td>모리타니</td>
+                    <td>39,584</td>
+                    <td>842</td>
+                    <td>2.1</td>
+                    <td>95.9</td>
+                </tr>
+                <tr class="step2">
+                    <td>카보베르데</td>
+                    <td>38,453</td>
+                    <td>351</td>
+                    <td>0.9</td>
+                    <td>98.8</td>
+                </tr>
+                <tr class="step2">
+                    <td>가이아나</td>
+                    <td>38,217</td>
+                    <td>1,008</td>
+                    <td>2.6</td>
+                    <td>94.9</td>
+                </tr>
+                <tr class="step2">
+                    <td>가봉</td>
+                    <td>37,511</td>
+                    <td>281</td>
+                    <td>0.7</td>
+                    <td>89.1</td>
+                </tr>
+                <tr class="step2">
+                    <td>파푸아뉴기니</td>
+                    <td>35,538</td>
+                    <td>550</td>
+                    <td>1.5</td>
+                    <td>97.2</td>
+                </tr>
+                <tr class="step2">
+                    <td>벨리즈</td>
+                    <td>30,824</td>
+                    <td>582</td>
+                    <td>1.9</td>
+                    <td>94.8</td>
+                </tr>
+                <tr class="step2">
+                    <td>기니</td>
+                    <td>30,770</td>
+                    <td>387</td>
+                    <td>1.3</td>
+                    <td>96.6</td>
+                </tr>
+                <tr class="step2">
+                    <td>토고</td>
+                    <td>26,315</td>
+                    <td>243</td>
+                    <td>0.9</td>
+                    <td>98.5</td>
+                </tr>
+                <tr class="step2">
+                    <td>탄자니아</td>
+                    <td>26,270</td>
+                    <td>730</td>
+                    <td>2.8</td>
+                    <td>-</td>
+                </tr>
+                <tr class="step2">
+                    <td>바베이도스</td>
+                    <td>26,200</td>
+                    <td>240</td>
+                    <td>0.9</td>
+                    <td>90.1</td>
+                </tr>
+                <tr class="step2">
+                    <td>아이티</td>
+                    <td>25,638</td>
+                    <td>750</td>
+                    <td>2.9</td>
+                    <td>84.8</td>
+                </tr>
+                <tr class="step2">
+                    <td>베냉</td>
+                    <td>24,863</td>
+                    <td>161</td>
+                    <td>0.6</td>
+                    <td>98.7</td>
+                </tr>
+                <tr class="step2">
+                    <td>세이셸</td>
+                    <td>23,537</td>
+                    <td>127</td>
+                    <td>0.5</td>
+                    <td>97.3</td>
+                </tr>
+                <tr class="step2">
+                    <td>소말리아</td>
+                    <td>23,051</td>
+                    <td>1,331</td>
+                    <td>5.8</td>
+                    <td>53.5</td>
+                </tr>
+                <tr class="step2">
+                    <td>바하마</td>
+                    <td>22,839</td>
+                    <td>705</td>
+                    <td>3.1</td>
+                    <td>94.8</td>
+                </tr>
+                <tr class="step3">
+                    <td>모리셔스</td>
+                    <td>22,156</td>
+                    <td>455</td>
+                    <td>2.1</td>
+                    <td>92.1</td>
+                </tr>
+                <tr class="step3">
+                    <td>레소토</td>
+                    <td>21,838</td>
+                    <td>663</td>
+                    <td>3.0</td>
+                    <td>62.9</td>
+                </tr>
+                <tr class="step3">
+                    <td>마요트</td>
+                    <td>21,003</td>
+                    <td>185</td>
+                    <td>0.9</td>
+                    <td>14.1</td>
+                </tr>
+                <tr class="step3">
+                    <td>부룬디</td>
+                    <td>20,473</td>
+                    <td>38</td>
+                    <td>0.2</td>
+                    <td>3.8</td>
+                </tr>
+                <tr class="step3">
+                    <td>동티모르</td>
+                    <td>19,828</td>
+                    <td>122</td>
+                    <td>0.6</td>
+                    <td>99.4</td>
+                </tr>
+                <tr class="step3">
+                    <td>콩고공화국</td>
+                    <td>18,970</td>
+                    <td>354</td>
+                    <td>1.9</td>
+                    <td>65.5</td>
+                </tr>
+                <tr class="step3">
+                    <td>아이슬란드</td>
+                    <td>18,642</td>
+                    <td>35</td>
+                    <td>0.2</td>
+                    <td>92.5</td>
+                </tr>
+                <tr class="step3">
+                    <td>안도라</td>
+                    <td>18,631</td>
+                    <td>133</td>
+                    <td>0.7</td>
+                    <td>88.3</td>
+                </tr>
+                <tr class="step3">
+                    <td>말리</td>
+                    <td>17,971</td>
+                    <td>618</td>
+                    <td>3.4</td>
+                    <td>85.3</td>
+                </tr>
+                <tr class="step3">
+                    <td>퀴라소</td>
+                    <td>17,487</td>
+                    <td>180</td>
+                    <td>1.0</td>
+                    <td>98.4</td>
+                </tr>
+                <tr class="step3">
+                    <td>니카라과</td>
+                    <td>17,254</td>
+                    <td>210</td>
+                    <td>1.2</td>
+                    <td>24.5</td>
+                </tr>
+                <tr class="step3">
+                    <td>타지키스탄</td>
+                    <td>17,095</td>
+                    <td>124</td>
+                    <td>0.7</td>
+                    <td>99.2</td>
+                </tr>
+                <tr class="step3">
+                    <td>대만</td>
+                    <td>16,662</td>
+                    <td>848</td>
+                    <td>5.1</td>
+                    <td>82.5</td>
+                </tr>
+                <tr class="step3">
+                    <td>아루바</td>
+                    <td>16,450</td>
+                    <td>174</td>
+                    <td>1.1</td>
+                    <td>97.8</td>
+                </tr>
+                <tr class="step3">
+                    <td>부르키나파소</td>
+                    <td>16,000</td>
+                    <td>286</td>
+                    <td>1.8</td>
+                    <td>95.9</td>
+                </tr>
+                <tr class="step3">
+                    <td>브루나이</td>
+                    <td>15,202</td>
+                    <td>98</td>
+                    <td>0.6</td>
+                    <td>97.6</td>
+                </tr>
+                <tr class="step3">
+                    <td>적도 기니</td>
+                    <td>13,599</td>
+                    <td>175</td>
+                    <td>1.3</td>
+                    <td>98.1</td>
+                </tr>
+                <tr class="step3">
+                    <td>지부티</td>
+                    <td>13,508</td>
+                    <td>188</td>
+                    <td>1.4</td>
+                    <td>98.4</td>
+                </tr>
+                <tr class="step3">
+                    <td>세인트루시아</td>
+                    <td>13,052</td>
+                    <td>283</td>
+                    <td>2.2</td>
+                    <td>97.0</td>
+                </tr>
+                <tr class="step3">
+                    <td>남수단</td>
+                    <td>12,823</td>
+                    <td>133</td>
+                    <td>1.0</td>
+                    <td>97.2</td>
+                </tr>
+                <tr class="step3">
+                    <td>홍콩</td>
+                    <td>12,466</td>
+                    <td>213</td>
+                    <td>1.7</td>
+                    <td>97.5</td>
+                </tr>
+                <tr class="step3">
+                    <td>뉴질랜드</td>
+                    <td>12,428</td>
+                    <td>44</td>
+                    <td>0.4</td>
+                    <td>48.0</td>
+                </tr>
+                <tr class="step3">
+                    <td>맨섬</td>
+                    <td>12,035</td>
+                    <td>66</td>
+                    <td>0.5</td>
+                    <td>91.9</td>
+                </tr>
+                <tr class="step3">
+                    <td>중앙아프리카 공화국</td>
+                    <td>11,742</td>
+                    <td>101</td>
+                    <td>0.9</td>
+                    <td>58.4</td>
+                </tr>
+                <tr class="step3">
+                    <td>예멘</td>
+                    <td>10,034</td>
+                    <td>1,955</td>
+                    <td>19.5</td>
+                    <td>68.9</td>
+                </tr>
+                <tr class="step3">
+                    <td>감비아</td>
+                    <td>9,992</td>
+                    <td>342</td>
+                    <td>3.4</td>
+                    <td>96.5</td>
+                </tr>
+                <tr class="step3">
+                    <td>케이맨 제도</td>
+                    <td>7,663</td>
+                    <td>9</td>
+                    <td>0.1</td>
+                    <td>52.2</td>
+                </tr>
+                <tr class="step3">
+                    <td>에리트레아</td>
+                    <td>7,484</td>
+                    <td>61</td>
+                    <td>0.8</td>
+                    <td>97.2</td>
+                </tr>
+                <tr class="step3">
+                    <td>지브롤터</td>
+                    <td>7,376</td>
+                    <td>100</td>
+                    <td>1.4</td>
+                    <td>94.8</td>
+                </tr>
+                <tr class="step3">
+                    <td>뉴칼레도니아</td>
+                    <td>7,176</td>
+                    <td>114</td>
+                    <td>1.6</td>
+                    <td>0.8</td>
+                </tr>
+                <tr class="step3">
+                    <td>니제르</td>
+                    <td>7,091</td>
+                    <td>264</td>
+                    <td>3.7</td>
+                    <td>95.0</td>
+                </tr>
+                <tr class="step3">
+                    <td>기니비사우</td>
+                    <td>6,444</td>
+                    <td>149</td>
+                    <td>2.3</td>
+                    <td>97.4</td>
+                </tr>
+                <tr class="step3">
+                    <td>시에라리온</td>
+                    <td>6,400</td>
+                    <td>121</td>
+                    <td>1.9</td>
+                    <td>68.6</td>
+                </tr>
+                <tr class="step3">
+                    <td>산마리노</td>
+                    <td>6,217</td>
+                    <td>94</td>
+                    <td>1.5</td>
+                    <td>92.8</td>
+                </tr>
+                <tr class="step3">
+                    <td>도미니카 연방</td>
+                    <td>6,086</td>
+                    <td>42</td>
+                    <td>0.7</td>
+                    <td>92.7</td>
+                </tr>
+                <tr class="step3">
+                    <td>그레나다</td>
+                    <td>5,909</td>
+                    <td>200</td>
+                    <td>3.4</td>
+                    <td>95.5</td>
+                </tr>
+                <tr class="step3">
+                    <td>라이베리아</td>
+                    <td>5,824</td>
+                    <td>287</td>
+                    <td>4.9</td>
+                    <td>94.8</td>
+                </tr>
+                <tr class="step3">
+                    <td>버뮤다</td>
+                    <td>5,751</td>
+                    <td>106</td>
+                    <td>1.8</td>
+                    <td>97.6</td>
+                </tr>
+                <tr class="step3">
+                    <td>차드</td>
+                    <td>5,701</td>
+                    <td>181</td>
+                    <td>3.2</td>
+                    <td>85.5</td>
+                </tr>
+                <tr class="step3">
+                    <td>세인트빈센트 그레나딘</td>
+                    <td>5,623</td>
+                    <td>76</td>
+                    <td>1.4</td>
+                    <td>90.6</td>
+                </tr>
+                <tr class="step3">
+                    <td>리히텐슈타인</td>
+                    <td>4,941</td>
+                    <td>62</td>
+                    <td>1.3</td>
+                    <td>88.2</td>
+                </tr>
+                <tr class="step3">
+                    <td>신트마르턴</td>
+                    <td>4,608</td>
+                    <td>75</td>
+                    <td>1.6</td>
+                    <td>97.8</td>
+                </tr>
+                <tr class="step3">
+                    <td>코모로</td>
+                    <td>4,548</td>
+                    <td>151</td>
+                    <td>3.3</td>
+                    <td>95.1</td>
+                </tr>
+                <tr class="step3">
+                    <td>앤티가 바부다</td>
+                    <td>4,148</td>
+                    <td>117</td>
+                    <td>2.8</td>
+                    <td>96.9</td>
+                </tr>
+                <tr class="step3">
+                    <td>세인트마틴 섬</td>
+                    <td>3,973</td>
+                    <td>56</td>
+                    <td>1.4</td>
+                    <td>35.2</td>
+                </tr>
+                <tr class="step3">
+                    <td>페로 제도</td>
+                    <td>3,957</td>
+                    <td>13</td>
+                    <td>0.3</td>
+                    <td>85.7</td>
+                </tr>
+                <tr class="step3">
+                    <td>모나코</td>
+                    <td>3,902</td>
+                    <td>36</td>
+                    <td>0.9</td>
+                    <td>95.7</td>
+                </tr>
+                <tr class="step3">
+                    <td>상투메 프린시페</td>
+                    <td>3,733</td>
+                    <td>56</td>
+                    <td>1.5</td>
+                    <td>98.4</td>
+                </tr>
+                <tr class="step3">
+                    <td>터크스 케이커스 제도</td>
+                    <td>3,107</td>
+                    <td>25</td>
+                    <td>25</td>
+                    <td>98.3</td>
+                </tr>
+                <tr class="step3">
+                    <td>카리브 네덜란드</td>
+                    <td>3,057</td>
+                    <td>22</td>
+                    <td>0.7</td>
+                    <td>93.3</td>
+                </tr>
+                <tr class="step3">
+                    <td>영국령 버진아일랜드</td>
+                    <td>2,816</td>
+                    <td>38</td>
+                    <td>1.3</td>
+                    <td>N/A</td>
+                </tr>
+                <tr class="step3">
+                    <td>세인트키츠 네비스</td>
+                    <td>2,790</td>
+                    <td>28</td>
+                    <td>1.0</td>
+                    <td>98.6</td>
+                </tr>
+                <tr class="step3">
+                    <td>부탄</td>
+                    <td>2,641</td>
+                    <td>3</td>
+                    <td>0.1</td>
+                    <td>99.4</td>
+                </tr>
+                <tr class="step3">
+                    <td>그린란드</td>
+                    <td>1,621</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>87.5</td>
+                </tr>
+                <tr class="step3">
+                    <td>생바르텔레미</td>
+                    <td>1,603</td>
+                    <td>6</td>
+                    <td>0.4</td>
+                    <td>N/A</td>
+                </tr>
+                <tr class="step3">
+                    <td>앵긜라</td>
+                    <td>1,469</td>
+                    <td>4</td>
+                    <td>0.3</td>
+                    <td>94.1</td>
+                </tr>
+                <tr class="step3">
+                    <td>왈리스 퓌티나</td>
+                    <td>454</td>
+                    <td>7</td>
+                    <td>1.5</td>
+                    <td>96.5</td>
+                </tr>
+                <tr class="step3">
+                    <td>생피에르 미클롱</td>
+                    <td>86</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>57.0</td>
+                </tr>
+                <tr class="step3">
+                    <td>포클랜드 제도</td>
+                    <td>83</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>100</td>
+                </tr>
+                <tr class="step3">
+                    <td>마카오</td>
+                    <td>77</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>100</td>
+                </tr>
+                <tr class="step3">
+                    <td>몬트세랫</td>
+                    <td>44</td>
+                    <td>1</td>
+                    <td>2.3</td>
+                    <td>93.2</td>
+                </tr>
+                <tr class="step3">
+                    <td>바티칸 시국</td>
+                    <td>44</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>100</td>
+                </tr>
+                <tr class="step3">
+                    <td>솔로몬 제도</td>
+                    <td>20</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>100</td>
+                </tr>
+                <tr class="step3">
+                    <td>서사하라</td>
+                    <td>10</td>
+                    <td>1</td>
+                    <td>10</td>
+                    <td>80</td>
+                </tr>
+                <tr class="step3">
+                    <td>잔담(크루즈)</td>
+                    <td>9</td>
+                    <td>2</td>
+                    <td>22.2</td>
+                    <td>77.8</td>
+                </tr>
+                <tr class="step3">
+                    <td>팔라우</td>
+                    <td>8</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>100</td>
+                </tr>
+                <tr class="step3">
+                    <td>바누아투</td>
+                    <td>6</td>
+                    <td>1</td>
+                    <td>16.7</td>
+                    <td>83.3</td>
+                </tr>
+                <tr class="step3">
+                    <td>마셜제도</td>
+                    <td>4</td>
+                    <td>0</td>
+                    <td>3</td>
+                    <td>100</td>
+                </tr>
+                <tr class="step3">
+                    <td>사모아</td>
+                    <td>3</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>100</td>
+                </tr>
+                <tr class="step3">
+                    <td>세인트헬레나</td>
+                    <td>2</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>100</td>
+                </tr>
+                <tr class="step3">
+                    <td>미크로네시아</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>100</td>
+                </tr>
+                <tr class="step3">
+                    <td>통가</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>100</td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="text-align: center;margin-top:50px;"> <button id="showbutton" onclick="Show()" >더보기</button>
+            <button id="hidebutton" onclick="Show()">접기</button></div>
+       
+    </div>
+    <div style="margin-top: 100px; margin-bottom:100px;">
+        <ul style="margin-left: 200px; font-size:13px; color:rgb(130,130,132);">
+            <li>확진자, 사망자: 2021.12.07 0시 집계 기준</li>
+            <li id="goData"><a href="#footer">데이터 출처</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div style="margin-bottom: 100px; visibility:hidden;"> flag</div>
+    <div id="korea">
+        <a style="visibility: hidden;">flag</a>
+        <div style="margin-top: 100px; margin-bottom:100px;">
+            <h1 style="text-align: center;">국내 현황</h1>
+            <div class="board" style="margin-top: 100px;">
+                <div>
+                    <div style="color:rgb(130,130,132);">확진자<p style="color: rgb(204,72,39); font-size:28px;">482,310</p>
+                    </div>
+                    <div style="color:rgb(130,130,132);">사망자<p style="font-size:28px; color:white;">3,957</p>
+                    </div>
+                    <div style="color:rgb(130,130,132);">검사자<p style="color: rgb(62,149,219); font-size:28px;">411,358</p>
+                    </div>
+                    <div style="color:rgb(130,130,132);">치명률<p style="font-size:28px;color:white;">0.82%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>국가</th>
+                    <th>확진자</th>
+                    <th>사망자</th>
+                    <th>치료중</th>
+                    <th>격리해제</th>
+                    <th>발생률</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>서울</td>
+                    <td>168,705</td>
+                    <td>1,239</td>
+                    <td>28,838</td>
+                    <td>138,628</td>
+                    <td>1,733.24</td>
+                </tr>
+                <tr>
+                    <td>경기</td>
+                    <td>143,806</td>
+                    <td>1,304</td>
+                    <td>22,227</td>
+                    <td>120,275</td>
+                    <td>1,085.3</td>
+                </tr>
+                <tr>
+                    <td>인천</td>
+                    <td>26,780</td>
+                    <td>166</td>
+                    <td>3,950</td>
+                    <td>22,664</td>
+                    <td>905.92</td>
+                </tr>
+                <tr>
+                    <td>대구</td>
+                    <td>19,695</td>
+                    <td>325</td>
+                    <td>1,089</td>
+                    <td>18,281</td>
+                    <td>808.34</td>
+                </tr>
+                <tr>
+                    <td>부산</td>
+                    <td>17,457</td>
+                    <td>188</td>
+                    <td>1,816</td>
+                    <td>15,453</td>
+                    <td>511.66</td>
+                </tr>
+                <tr>
+                    <td>경남</td>
+                    <td>15,836</td>
+                    <td>63</td>
+                    <td>1,165</td>
+                    <td>14,608</td>
+                    <td>471.12</td>
+                </tr>
+                <tr>
+                    <td>충남</td>
+                    <td>13,929</td>
+                    <td>87</td>
+                    <td>1,670</td>
+                    <td>12,172</td>
+                    <td>656.27</td>
+                </tr>
+                <tr>
+                    <td>경북</td>
+                    <td>12,052</td>
+                    <td>115</td>
+                    <td>1,139</td>
+                    <td>10,798</td>
+                    <td>452.66</td>
+                </tr>
+                <tr>
+                    <td>강원</td>
+                    <td>9,437</td>
+                    <td>78</td>
+                    <td>1,096</td>
+                    <td>8,263</td>
+                    <td>612.58</td>
+                </tr>
+                <tr>
+                    <td>대전</td>
+                    <td>9,400</td>
+                    <td>74</td>
+                    <td>1,113</td>
+                    <td>8,213</td>
+                    <td>637.65</td>
+                </tr>
+                <tr>
+                    <td>충북</td>
+                    <td>9,316</td>
+                    <td>95</td>
+                    <td>613</td>
+                    <td>8,608</td>
+                    <td>582.47</td>
+                </tr>
+                <tr>
+                    <td>전북</td>
+                    <td>6,787</td>
+                    <td>80</td>
+                    <td>616</td>
+                    <td>6,091</td>
+                    <td>373.47</td>
+                </tr>
+                <tr>
+                    <td>광주</td>
+                    <td>6,567</td>
+                    <td>31</td>
+                    <td>429</td>
+                    <td>6,107</td>
+                    <td>450.82</td>
+                </tr>
+                <tr>
+                    <td>울산</td>
+                    <td>5,747</td>
+                    <td>57</td>
+                    <td>117</td>
+                    <td>5,573</td>
+                    <td>501.03</td>
+                </tr>
+                <tr>
+                    <td>전남</td>
+                    <td>4,727</td>
+                    <td>27</td>
+                    <td>484</td>
+                    <td>4,216</td>
+                    <td>253.5</td>
+                </tr>
+                <tr>
+                    <td>제주</td>
+                    <td>3,920</td>
+                    <td>9</td>
+                    <td>321</td>
+                    <td>3,590</td>
+                    <td>584.42</td>
+                </tr>
+                <tr>
+                    <td>세종</td>
+                    <td>1,643</td>
+                    <td>3</td>
+                    <td>132</td>
+                    <td>1,508</td>
+                    <td>479.95</td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="margin-top: 100px; margin-bottom:100px;">
+            <ul style="margin-left: 200px; font-size:13px; color:rgb(130,130,132);">
+                <li>확진자, 사망자, 격리해제: 질병관리청 2021.12.07 0시 집계 기준</li>
+                <li>치료중: 확진자 - 사망자 - 격리해제자</li>
+                <li>지역별인구출처: 행정안전부, 주민등록인구현황(20.1월 기준)</li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div id="news" style="visibility: hidden; margin-top:100px;">flag</div>
+    <div style="margin-top: 100px; margin-bottom:100px;">
+        <div>
+            <h1 style="text-align: center;">코로나 뉴스</h1>
+            <div class="table"  style="margin-top:100px;">
+                <table id="newstable">
+                    <tbody>
+                        <tr>
+                            <td><a style="text-decoration: none;" href="https://www.seoul.co.kr/news/newsView.php?id=20211201500149&wlog_tag3=naver"
+                                    target="_blank">식약처,
+                                    만 5~11세 화이자 코로나 백신 사전검토 착수
+                                    <img src="Img\news1.png" alt="pfizer로고" style="float: right;">
+                                </a>
+                                <p>식약의약품안전처는 한국화이자가 낸 만 5~11세 어린이용 코로나19 백신의 허가 신청과 관련해 임상자료 사전검토에 착수했다고...</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a style="text-decoration: none;" href="http://news.kmib.co.kr/article/view.asp?arcid=0016523685&code=61131111&cp=nv"
+                                    target="_blank">[속보]
+                                    FDA 자문위,
+                                    머크 '코로나19 먹는 치료제' 승인
+                                    <img src="Img\news2.png" alt="먹는 치료제" style="float: right;"></a>
+                                <p>코로나19 치료제를 승인하도록 권고했다. 로이터통신 등에 따르면 FDA 자문기구인 항균제자문위원회(ADAC)는 이날 장시간 토론 끝에...</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a style="text-decoration: none;" href="https://newsis.com/view/?id=NISX20211203_0001674632&cID=10201&pID=10200"
+                                    target="_blank">코로나
+                                    3차 접종 누적 357만명...전체 인구 대비 7.0%<img src="Img\news3.png" alt="주사접종"
+                                        style="float:right"></a>
+                                <p>기자 = 코로나19 백신 3차 접종(추가접종-부스터샷)을 끝낸 국민이 전날 18만명 가까이 늘어 357만명 이상으로 집계됐다. 전체 인구 대비
+                                    7.0%...</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a style="text-decoration: none;" href="https://biz.sbs.co.kr/article/20000041037?division=NAVER" target="_blank">코로나
+                                    끝모를 확산...확진-위중증-사망 '동시 역대최다'(종합)</a><img src="Img\news4.png" alt="코로나 의료진"
+                                    style="float:right">
+                                <p>코로나19 신규 확진자 수 위중증 환자가 다시 역대 최다 기록을 세웠습니다. 오늘(4일) 질병관리청... 지난해 국내에서 코로나 19 첫 확진자가...
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a style="text-decoration: none;" href="https://www.nocutnews.co.kr/news/5667836" target="_blank">[영상]
+                                    위드코로나 '중단'...사적모임 수도권 6명-비수도권 8명</a><img src="Img\news5.png" alt="코로나 의료진"
+                                    style="float:right">
+                                <p>(위드코로나) 이후 각종 코로나19 지표가 악화일로를 치닫자 정부가 사적모임 제한 기준을 수도권 6명, 비수도권 8명으로 축소하며 사실상...</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a style="text-decoration: none;" href="https://moneys.mt.co.kr/news/mwView.php?no=2021120515378038615"
+                                    target="_blank">오미크론
+                                    확산에도... 한은 "내년 세계 경제 회복세 전망"</a><img src="Img\news6.png" alt="코로나 의료진"
+                                    style="float:right">
+                                <p>오미크론 변이 바이러스가 확산하고 있지만 한국은행은 내년 세계 경제가 신종 코로나바이러스가 감영증(코로나19) 충격에서 점차 벗어나...</p>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td><a style="text-decoration: none;" href="http://www.busan.com/view/busan/view.php?code=2021120617110630446"
+                                    target="_blank">영국 정부 자문단
+                                    "코로나, 최소 5년 계속될 것"</a><img src="Img\news7.png" alt="코로나 의료진" style="float:right">
+                                <p>AFP연합뉴스 코로나19 바이러스가 촤소 5년은 더 위협적인 상태로 지속될 수 있다는 영국 정부 자문단의...패러 이사는 "이 바이러스가 전 세계...
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3 style="text-align:left; margin-top:200px; margin-left:5px;">뉴스출처</h3>
+                <ul style="text-align: left;" class="foot">
+                    <li><a target="_blank"
+                            href="https://www.seoul.co.kr/news/newsView.php?id=20211201500149&wlog_tag3=naver">서울신문</a>
+                    </li>
+                    <li><a target="_blank"
+                            href="http://news.kmib.co.kr/article/view.asp?arcid=0016523685&code=61131111&cp=nv">국민일보</a>
+                    </li>
+                    <li><a target="_blank"
+                            href="https://newsis.com/view/?id=NISX20211203_0001674632&cID=10201&pID=10200">NEWSIS</a>
+                    </li>
+                    <li><a target="_blank" href="https://biz.sbs.co.kr/article/20000041037?division=NAVER">SBS뉴스</a>
+                    </li>
+                    <li><a target="_blank" href="https://www.nocutnews.co.kr/news/5667836">노컷뉴스</a></li>
+                    <li><a target="_blank"
+                            href="https://moneys.mt.co.kr/news/mwView.php?no=2021120515378038615">MoneyS</a></li>
+                    <li><a target="_blank"
+                            href="http://www.busan.com/view/busan/view.php?code=2021120617110630446">부산일보</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="vac" style="visibility: hidden; margin-top:100px;">flag</div>
+    <div style="margin-top: 100px; margin-bottom:100px;">
+        <h1 style="text-align: center;">백신 현황</h1>
+        <div class="board" style="margin-top: 100px;">
+            <div>
+                <div style="color:rgb(130,130,132);">1차 접종 누계<p style="color: rgb(62,149,219);font-size:28px;">42,733,049</p>
+                </div>
+                <div style="color:rgb(130,130,132);">1차 접종 완료율<p style="font-size:28px; color:white;">83.2%</p>
+                </div>
+                <div style="color:rgb(130,130,132);">2차 접종 누계<p style="color: rgb(62,149,219);font-size:28px;">41,410,206</p>
+                </div>
+                <div style="color:rgb(130,130,132);">2차 접종 완료율<p style="font-size:28px; color:white;">80.6%</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="vacButton">
+            <div><button id="pfizerButton" onclick="pfizer()">화이자</button>
+                <button id="ModernaButton" onclick="Moderna()">모더나</button>
+                <button id="AstraZenecaButton" onclick="AstraZeneca()">아스트라</button>
+                <button id="JanssenButton" onclick="Janssen()">얀센</button>
+            </div>
+
+            <div style="margin-top:75px;">
+                <div>
+                    <a style="display:inline-block;padding-left:0px; width:100px; color:rgb(130,130,132)">
+                        개발국
+                    </a>
+                    <a style="margin-left:20px; padding-left:0px;" class="vacData">-</a>
+                </div>
+
+                <div>
+                    <a style="display:inline-block;padding-left:0px; width:100px; color:rgb(130,130,132)">
+                        수량
+                    </a>
+                    <a style="margin-left:20px; padding-left:0px;" class=" vacData"">-</a>
+            </div>
+
+            <div>
+                <a style=" display:inline-block;padding-left:0px; width:100px; color:rgb(130,130,132)">
+                        접종횟수
+                    </a>
+                    <a style="margin-left:20px; padding-left:0px;" class=" vacData"">-</a>
+            </div>
+
+            <div>
+                <a style=" display:inline-block;padding-left:0px; width:100px; color:rgb(130,130,132)">
+                        접종간격
+                    </a>
+                    <a style="margin-left:20px; padding-left:0px;" class="vacData">-</a>
+                </div>
+
+                <div>
+                    <a style="display:inline-block;padding-left:0px; width:100px; color:rgb(130,130,132)">
+                        보관
+                    </a>
+                    <a style="margin-left:20px; padding-left:0px;" class="vacData">-</a>
+                </div>
+                <div>
+                    <a style="display:inline-block;padding-left:0px; width:100px; color:rgb(130,130,132)">
+                        유통
+                    </a>
+                    <a style="margin-left:20px; padding-left:0px;" class="vacData">-</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+    <hr>
+    <div id="cnt" style="visibility: hidden; margin-top:100px;">flag</div>
+    <div id="country" style="margin-top: 100px;margin-bottom: 100px;">
+        <h1>확진자 정보</h1>
+        
+        <div style="margin-top: 100px;">
+            <button class="linkButton"
+                onclick="window.open('https://www.seoul.go.kr/coronaV/coronaStatus.do');">서울</button>
+            <button class="linkButton"
+                onclick="window.open('https://www.busan.go.kr/covid19/Corona19/travelhist.do');">부산</button>
+            <button class="linkButton" onclick="window.open('http://covid19.daegu.go.kr/00937400.html');">대구</button>
+            <button class="linkButton" onclick="window.open('https://www.incheon.go.kr/covid19/index');">인천</button>
+            <button class="linkButton"
+                onclick="window.open('https://www.gwangju.go.kr/c19/contentsView.do?pageId=corona2');">광주</button>
+            <button class="linkButton"
+                onclick="window.open('https://www.daejeon.go.kr/corona19/index.do?menuId=0002');">대전</button>
+            <button class="linkButton" onclick="window.open('https://covid19.ulsan.go.kr/index.do');">울산</button>
+            <button class="linkButton" onclick="window.open('https://www.sejong.go.kr/bbs/R3621/list.do');">세종</button>
+            <button class="linkButton"
+                onclick="window.open('https://www.gg.go.kr/bbs/board.do?bsIdx=722&menuId=2903#page=1');">경기</button>
+            <button class="linkButton" onclick="window.open('https://www.provin.gangwon.kr/covid-19.html');">강원</button>
+            <button class="linkButton"
+                onclick="window.open('https://www.chungbuk.go.kr/covid-19/index.do');">충북</button>
+            <button class="linkButton" onclick="window.open('http://www.chungnam.go.kr/coronaStatus.do');">충남</button>
+            <button class="linkButton"
+                onclick="window.open('https://www.jeonbuk.go.kr/index.jeonbuk?menuCd=DOM_000000110006000000');">전북</button>
+            <button class="linkButton" onclick="window.open('https://www.jeonnam.go.kr/coronaMainPage.do');">전남</button>
+            <button class="linkButton" onclick="window.open('https://gb.go.kr/corona_main.htm');">경북</button>
+            <button class="linkButton"
+                onclick="window.open('http://xn--19-q81ii1knc140d892b.kr/main/main.do#close');">경남</button>
+            <button class="linkButton"
+                onclick="window.open('https://www.jeju.go.kr/wel/healthCare/corona/coronaNotice.htm');">제주</button>
+        </div>
+        <ul style="text-align: left; font-size:13px; color:rgb(130,130,132); margin-top:50px;">
+            <li>버튼을 누르면 해당 지역웹사이트로 이동</li>
+        </ul>
+    </div>
+    <hr>
+</body>
+<footer id="footer">
+    <h1 style="margin-top:100px;">데이터출처</h1>
+    <ul class="foot">
+        <li><a target="_blank" href="https://coronaboard.kr/">코로나보드</a></li>
+        <li><a target="_blank" href="https://corona-live.com/">코로나라이브</a></li>
+        <li><a target="_blank" href="https://www.coronanow.kr/">코로나나우</a></li>
+        <li><a target="_blank" href="http://ncov.mohw.go.kr/index.jsp">대한민국 : 질병관리본부 코로나바이러스감염증-19</a></li>
+        <li><a target="_blank"
+                href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/">WHO Novel
+                Coronavirus (2019-nCoV) situation reports</a></li>
+        <li><a target="_blank" href="https://www.worldometers.info/coronavirus/">Worldometer: COVID-19 CORONAVIRUS
+                OUTBREAK</a></li>
+        <li><a target="_blank" href="https://www3.nhk.or.jp/news/special/coronavirus/">일본: NHK</a></li>
+        <li><a target="_blank" href="https://www.mhlw.go.jp/stf/houdou/houdou_list_202002.html">일본: 후생노동성</a></li>
+        <li><a target="_blank" href="https://3g.dxy.cn/newh5/view/pneumonia">중국: 全国新型肺炎疫情实时动态</a></li>
+        <li><a target="_blank" href="https://www.moh.gov.sg/covid-19">싱가포르: Ministry of Health</a></li>
+        <li><a target="_blank" href="https://chp-dashboard.geodata.gov.hk/covid-19/en.html">홍콩: Centre for Health
+                Protection Dashboard</a></li>
+        <li><a target="_blank" href="https://www.cdc.gov.tw/">대만: Ministry of Health and Welfare</a></li>
+        <li><a target="_blank"
+                href="https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert">호주:
+                Department of Health</a></li>
+        <li><a target="_blank" href="https://www.moh.gov.my/index.php/pages/view/2274">말레이시아: Ministry of Health
+                Malaysia</a></li>
+        <li><a target="_blank" href="https://www.facebook.com/kementeriankesihatanmalaysia">말레이시아: MOH Malaysia
+                Facebook</a></li>
+        <li><a target="_blank"
+                href="https://interaktiv.morgenpost.de/corona-virus-karte-infektionen-deutschland-weltweit/">독일:
+                Morgenpost CoronaVirus Monitor</a></li>
+        <li><a target="_blank"
+                href="https://covid.cdc.gov/covid-data-tracker/?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcases-updates%2Fcases-in-us.html#cases">미국:
+                Centers for Disease Control and Prevention</a></li>
+        <li><a target="_blank"
+                href="https://suckhoedoisong.vn/tinh-hinh-dich-covid-19-cap-nhat-moi-nhat-tu-bo-y-te-16921081215062562.htm">베트남:
+                Health and Life Magazine</a></li>
+        <li><a target="_blank" href="https://www.santepubliquefrance.fr/dossiers/coronavirus-covid-19">프랑스: Santé
+                Publique France</a></li>
+        <li><a target="_blank" href="https://wam.ae/ar/details/1395302822121">아랍에미레이트: Emirates News Agency</a></li>
+        <li><a target="_blank"
+                href="https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html">캐나다:
+                Government of Canada</a></li>
+        <li><a target="_blank"
+                href="https://www.ctvnews.ca/health/coronavirus/tracking-every-case-of-covid-19-in-canada-1.4852102">캐나다:
+                CTV News</a></li>
+        <li><a target="_blank" href="https://coronavirus.data.gov.uk/#situation-in-the-uk">영국: Government of UK</a></li>
+        <li><a target="_blank"
+                href="https://www.salute.gov.it/portale/nuovocoronavirus/dettaglioContenutiNuovoCoronavirus.jsp?lingua=italiano&id=5351&area=nuovoCoronavirus&menu=vuoto">이탈리아:
+                Ministry of Health</a></li>
+        <li><a target="_blank" href="https://www.repubblica.it/">이탈리아: la Repubblica</a></li>
+        <li><a target="_blank"
+                href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">2019-nCoV
+                Global Cases (by Johns Hopkins CSSE)</a></li>
+        <li>Developer : JHANG KYUNG BIN</li>
+        <li>E-mail : jkb12377@naver.com</li>
+    </ul>
+</footer>
+
+</html>
